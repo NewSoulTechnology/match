@@ -1,0 +1,86 @@
+div.moduleItem {
+	border: 1px solid #ededed;
+	border-radius: 5px;
+	margin-top: 15px;
+	background-color: #fff;
+}
+
+.grzxTabBox {
+	padding: 0px 23px 30px 23px;
+}
+
+div, p, h1, h2, h3, textarea {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+div {
+	display: block;
+}
+
+.grzx_xxItem {
+	padding: 32px 0px 10px 67px;
+	position: relative;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.xxcountBox {
+	position: absolute;
+	left: 0px;
+	top: 35px;
+	width: 46px;
+	height: 46px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a, .btn {
+	cursor: pointer;
+}
+
+.siteCircleBox img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+.xxTopText {
+	color: #999999;
+}
+
+.clearfix {
+	float: none;
+}
+
+.xxTopText .ftP {
+	height: 20px;
+	line-height: 20px;
+	float: left;
+}
+
+.site_ALink {
+	text-decoration: none;
+	color: inherit;
+}
+
+.xxTopText .scP {
+	height: 20px;
+	line-height: 20px;
+	float: right;
+}
+
+.xxTopText .scP span {
+	margin-right: 15px;
+}
+
+.xxInfor {
+	margin: 4px 0px 0px 0px;
+}

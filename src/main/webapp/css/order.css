@@ -1,0 +1,92 @@
+@charset "utf-8";
+.grzxTabBox{
+	padding: 0px 23px 30px 23px;
+	border: 1px solid #ededed;
+	border-radius: 5px;
+	margin-top: 15px;
+	background-color: #fff;
+	
+}
+thead{
+	display: table-header-group;
+	vertical-align: middle;
+	border: inherit;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+}
+th:first-child{
+	text-indent: 15px;
+	text-align: left;
+	background-color: #eaebec;
+}
+th,td{
+	margin: 0;
+	padding: 0;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+tbody .ftTr{
+	background-color: #f6f7f8;
+	height: 35px;
+	text-indent: 15px;
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+}
+.dingdan{
+	margin-left: 18px;
+}
+.inforTr{
+	border:1px solid #E4E4E4;
+	border-top: 1px solid #f0f0f0;
+}
+.inforTr td{
+	padding: 28px 0px;
+}
+.ddImgBox{
+	width: 80px;
+	height: 60px;
+	float: left;
+	margin-left: 10px;
+}
+.ddImgText{
+	margin-left: 10px;
+	float: left;
+	width: 180px;
+}
+.inforRationBox{
+	height: 20px;
+	width: 140px;
+	overflow: hidden;
+	margin: 0 0;
+}
+.inforRation{
+	width: 62px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #e4e4e4;
+	overflow: hidden;
+	margin: 7px 0 7px 0;
+	float: left;
+	margin-left: 18px;
+}
+.inner{
+	height: 6px;
+	background-color: #55acef;
+}
+.ddLastbtn_A {
+    width: 72px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+    background-color: #ff6520;
+    border-radius: 3px;
+    color: #fff;
+}

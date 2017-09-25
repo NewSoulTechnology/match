@@ -1,0 +1,132 @@
+.grzxRightBox > div.moduleItem {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+.grzxTabBox {
+    padding: 0px 23px 30px 23px;
+}
+div, p, h1, h2, h3, textarea {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+div {
+    display: block;
+}
+.grzxTabUl {
+    border-bottom: 3px solid #ebeef1;
+    height: 57px;
+}
+ol, ul {
+    list-style: none;
+}
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.grzxTabUl .grzxTabLi.cur {
+    border-bottom: 3px solid #50abf2;
+}
+.grzxTabUl .grzxTabLi {
+    height: 57px;
+    line-height: 57px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #ebeef1;
+    padding: 0px 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.wdyeOuterBox {
+    background-color: #faf3dd;
+    border: 1px solid #f2e5bd;
+    height: 40px;
+    padding: 20px 25px;
+    margin: 20px 0px 0px 0px;
+}
+.wdyeOuterBox > h3 {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.siteIlB_box {
+    font-size: 0px;
+}
+.siteIlB_box>*, .siteIlB_item {
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+}
+.wdyeOuterBox h3 b {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6520;
+    margin-left: 3px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.grzxTabUl .grzxTabLi.wdye {
+    border-bottom: 3px solid #50abf2;
+}
+.hongbaoBox {
+    margin: 17px 0px 0px 0px;
+}
+.hongbaoTable {
+    text-align: center;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    display: table;
+    border-color: grey;
+}
+colgroup {
+    display: table-column-group;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.hongbaoTable thead th {
+    background-color: #eff3f6;
+    height: 36px;
+}
+.hongbaoTable th {
+    border-bottom: none;
+}
+.hongbaoTable th, .hongbaoTable td {
+    border: 1px solid #e4e4e4;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}

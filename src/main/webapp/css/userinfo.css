@@ -1,0 +1,241 @@
+div {
+	display: block;
+}
+
+.grzxFGLabel {
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	text-align: right;
+	font-size: 14px;
+	width: 120px;
+}
+
+.grzxFGCBox {
+	min-height: 34px;
+	float: left;
+	margin-left: 13px;
+	font-size: 14px;
+}
+
+.clearfix {
+	float: none;
+}
+
+.binding {
+	font-size: 14px;
+	line-height: 34px;
+	font-size: 14px;
+}
+
+.binding a {
+	color: #ff4f00;
+	text-decoration: underline;
+}
+
+.binding .mail-tag {
+	font-size: 13px;
+	color: #ccc;
+	padding-left: 10px;
+}
+
+.grzlCountPic {
+	height: 64px;
+	margin-top: -15px;
+}
+
+.grzlCountPicBox {
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+
+.siteCircleBox img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.grzlCountPicText {
+	float: left;
+	padding: 14px 0px 0px 13px;
+}
+
+.grzlCountPicText .textP {
+	color: #999999;
+	font-size: 13px;
+	margin-top: 4px;
+}
+
+div.grzlCountPicText div#uploadify-button {
+	background-color: #50aaf0;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+.smrzTabBox {
+	height: 35px;
+	border-bottom: 1px solid #ebeef1;
+	padding: 24px 0px 0px 15px;
+}
+
+.siteIlB_box {
+	font-size: 0px;
+}
+
+.smrzTabBox a.cur, .smrzTabBox a:hover {
+	background-color: #ff5d25;
+	color: #fff;
+}
+
+.smrzTabBox a {
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 10px;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+.siteIlB_box>*, .siteIlB_item {
+	vertical-align: top;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.btn_ALink {
+	text-decoration: none;
+	color: inherit;
+}
+
+.xiugaimimaBox {
+	padding: 39px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/* 定义模态对话框外面的覆盖层样式 */
+#modal-overlay {
+	visibility: hidden;
+	position: absolute; /* 使用绝对定位或固定定位  */
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 1000;
+	background-color: #333;
+	opacity: 0.5; /* 背景半透明 */
+}
+/* 模态框样式 */
+.success-popup {
+	width: 580px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 0 35px rgba(0, 0, 0, .52);
+	position: fixed;
+	left: 50%;
+	margin-left: -290px;
+	top: 10px;
+	z-index: 999;
+}
+
+.popup-header {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+}
+
+.popup-header .close {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	right: 25px;
+	width: 15px;
+	height: 15px;
+	background-position: 0 -154px;
+}
+
+.popup-wrap {
+	padding: 0 53px 20px 45px;
+}
+.formitm {
+    line-height: 36px;
+    padding: 0 0 26px 0;
+}
+.lab {
+    width: 90px;
+    margin-right: -90px;
+    float: left;
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.inpt {
+    margin-left: 106px;
+    font-size: 14px;
+    position: relative;
+}
+.u-ipt {
+    width: 348px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding: 10px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #777;
+    background: #fff;
+    box-sizing: content-box;
+}
+.popup-form .error-txt, .personal-data-left .formitm .error-txt {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    line-height: 22px;
+    color: #fe0000;
+    font-size: 12px;
+    display: none;
+}
+.inpt * {
+    vertical-align: middle;
+}
+.inpt {
+    margin-left: 106px;
+    font-size: 14px;
+    position: relative;
+}
+.img-tel-ver .u-ipt {
+    width: 238px;
+}
+.domain {
+    width: 100px;
+    height: 36px;
+    margin-left: 6px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    cursor: pointer;
+}
+.btn-orange {
+    background-color: #ff6520;
+}
+.btn-blue {
+    background-color: #50abf2;
+}
+.small {
+    width: 124px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.btn {
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: opacity .8s ease;
+}
